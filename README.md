@@ -3,15 +3,11 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-
-- [Tips Calculator Page](#tips-calculator-page)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Tasks](#tasks)
-  - [Tips Calculator Page Description](#tips-calculator-page-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Tasks](#tasks)
+- [Tips Calculator Page Description](#tips-calculator-page-description)
+- [Author](#author)
 
 ## Screenshot
 
