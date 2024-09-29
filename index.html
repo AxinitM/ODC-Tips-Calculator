@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tips Calculator</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <header>
+      <h1>Tips Calculator</h1>
+    </header>
+    <main>
+      <div class="calculator-container">
+        <!-- left section -->
+
+        <div class="left-section">
+          <!-- bill amount input -->
+          <div class="input-group">
+            <label for="bill">Bill Amount</label>
+            <input
+              type="number"
+              id="bill"
+              min="0"
+              step="1"
+              placeholder="$0.00"
+            />
+          </div>
+          <span class="error-msg-bill">Please, enter the bill amount</span>
+
+          <!-- number of people  -->
+          <div class="input-group">
+            <label for="people">Number of People</label>
+            <select id="people">
+              <option value="" disabled selected hidden>Select number</option>
+              <option value="1">1 person</option>
+              <option value="2">2 people</option>
+              <option value="3">3 people</option>
+              <option value="4">4 people</option>
+              <option value="5">5 people</option>
+              <option value="6">6 people</option>
+              <option value="7">7 people</option>
+              <option value="8">8 people</option>
+              <option value="9">9 people</option>
+              <option value="10">10 people</option>
+            </select>
+          </div>
+          <span class="error-msg-people"
+            >Please, select the number of people</span
+          >
+
+          <!-- select tip  % / radio buttons -->
+          <div class="input-group">
+            <label>Select Tip %</label>
+            <div class="tip-buttons">
+              <input type="radio" id="tip0" name="tip" value="0" />
+              <label for="tip0">0%</label>
+
+              <input type="radio" id="tip5" name="tip" value="5" />
+              <label for="tip5">5%</label>
+
+              <input type="radio" id="tip10" name="tip" value="10" />
+              <label for="tip10">10%</label>
+
+              <input type="radio" id="tip15" name="tip" value="15" />
+              <label for="tip15">15%</label>
+
+              <input type="radio" id="tip20" name="tip" value="20" />
+              <label for="tip20">20%</label>
+
+              <input type="radio" id="tip30" name="tip" value="30" />
+              <label for="tip30">30%</label>
+            </div>
+          </div>
+          <span class="error-msg-tip">Please, select a tip percentage</span>
+
+          <!-- calculate button -->
+          <button class="calculate-button">Calculate</button>
+        </div>
+
+        <!-- right section  -->
+
+        <div class="result-section">
+          <div class="result-background">
+            <div>
+              <!-- bill / person section -->
+
+              <div class="bill-person-display">
+                <div class="bill-person-label">
+                  <div class="result-label">Bill</div>
+                  <div class="result-sub-label">/ person</div>
+                </div>
+                <div class="bill-person-value">$0.00</div>
+              </div>
+
+              <!-- tips /person section -->
+
+              <div class="tip-person-display">
+                <div class="tip-person-label">
+                  <div class="result-label">Tips</div>
+                  <div class="result-sub-label">/ person</div>
+                </div>
+                <div class="tip-person-value">$0.00</div>
+              </div>
+
+              <!-- total /person section -->
+
+              <div class="total-person-display">
+                <div class="total-person-label">
+                  <div class="result-label">Total</div>
+                  <div class="result-sub-label">/ person</div>
+                </div>
+                <div class="total-person-value">$0.00</div>
+              </div>
+
+              <!-- final Amount/ for all section -->
+
+              <div class="final-amount-display">
+                <div class="final-amount-label">
+                  <div class="result-label">Final amount</div>
+                  <div class="result-sub-label">/ for all</div>
+                </div>
+                <div class="final-amount-value">$0.00</div>
+              </div>
+            </div>
+
+            <!-- reset button -->
+
+            <button class="reset-button">Reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
