@@ -15,7 +15,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Screenshot
 
-![](./image/screenshot.png)
+![](./images/screenshot.png)
 
 ## Links
 
