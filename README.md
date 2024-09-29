@@ -15,7 +15,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Links
 
-([Tips Calculator Page](https://axinitm.github.io/ODC-Tips-Calculator/))
+[Tips Calculator Page](https://axinitm.github.io/ODC-Tips-Calculator/)
 
 ## Tasks
 Create a Tips Calculator Page. 
