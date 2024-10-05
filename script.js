@@ -162,10 +162,10 @@ function calculateBillPerPerson() {
   const finalAmountForAll = (people * totalPerPerson).toFixed(0);
 
   // Results display
-  billPersonValue.textContent = `$${billPerPerson}`;
-  tipPersonValue.textContent = `$${tipPerPerson}`;
-  totalPersonValue.textContent = `$${totalPerPerson}`;
-  finalAmountValue.textContent = `$${finalAmountForAll}`;
+  billPersonValue.textContent = `€${billPerPerson}`;
+  tipPersonValue.textContent = `€${tipPerPerson}`;
+  totalPersonValue.textContent = `€${totalPerPerson}`;
+  finalAmountValue.textContent = `€${finalAmountForAll}`;
 }
 
 // Disabling error messages when the correct info is selected (before pressing Calculation button)
@@ -214,10 +214,10 @@ function resetValues() {
   billAmount.value = "";
   numberOfPeople.value = "";
   tipRadios.forEach((radio) => (radio.checked = false));
-  billPersonValue.textContent = "$0.00";
-  tipPersonValue.textContent = "$0.00";
-  totalPersonValue.textContent = "$0.00";
-  finalAmountValue.textContent = "$0.00";
+  billPersonValue.textContent = "€0.00";
+  tipPersonValue.textContent = "€0.00";
+  totalPersonValue.textContent = "€0.00";
+  finalAmountValue.textContent = "€0.00";
   errorMsgBill.style.visibility = "hidden";
   billAmount.style.outline = "none";
   errorMsgPeople.style.visibility = "hidden";
