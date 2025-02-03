@@ -34,3 +34,4 @@ If any required information (bill amount, tip percentage, or number of people) i
 ## Author
 
 [Andrei Martinenko](https://github.com/AxinitM)
+[Repsonal Page](https://www.frontender.biz/)
